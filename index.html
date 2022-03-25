@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD TO HTML Practice Project 02</title>
+    <!-- Bootstrap file & Others -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Main CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!---- Top Bar Area ---->
+<section id="topbar" class="topbar">
+  <div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 col-lg-8">
+           <div class="topbar_menu">
+             <ul>
+               <li><i class="fa-solid fa-location-dot"></i> 20 Main Street, USA</li>
+               <li><i class="fa-solid fa-envelope"></i> support@website.com</li>
+               <li><i class="fa-solid fa-phone"></i> +012 (345) 6789</li>
+             </ul>
+            </div>
+         </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="topbar_left_side">
+            <form>
+              <div class="search_area">
+                <input class="search_bar" placeholder="Search here" type="text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div> 
+              <p>English <i class="fa-solid fa-angle-down"></i></p>
+            </form>
+         </div>
+        </div>
+
+    </div>
+  </div>
+</section><!---- END Top Bar Area ---->
+
+<!----Navbar Area Start---->
+<nav class="navbar sticky-top navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" alt="Logo"></a> <h2 class="brant_name">Roxce</h2>
+    <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Home One</a></li>
+            <li><a class="dropdown-item" href="#">Home Two</a></li>
+            <li><a class="dropdown-item" href="#">Home Three</a></li>
+            <li><a class="dropdown-item" href="#">Home Four</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Service One</a></li>
+            <li><a class="dropdown-item" href="#">Service Two</a></li>
+            <li><a class="dropdown-item" href="#">Service Three</a></li>
+            <li><a class="dropdown-item" href="#">Service Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Pages One</a></li>
+            <li><a class="dropdown-item" href="#">Pages Two</a></li>
+            <li><a class="dropdown-item" href="#">Pages Three</a></li>
+            <li><a class="dropdown-item" href="#">Pages Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Shop One</a></li>
+            <li><a class="dropdown-item" href="#">Shop Two</a></li>
+            <li><a class="dropdown-item" href="#">Shop Three</a></li>
+            <li><a class="dropdown-item" href="#">Shop Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </li>
+      </ul>
+      <form class="social_area">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!---- Hero Area Start ---->
+<section id="hero" class="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/hero.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <p class="animate__animated animate__fadeInUp">| &nbsp; 25 Years Of Experience &nbsp; |</p>
+                <h2 class="animate__animated animate__fadeInDown">Painting Service 
+                  Company</h2>                
+                <a href="#" class="custom_btn custom_btn01">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="custom_btn custom_btn02">Our Service <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/hero.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <p class="animate__animated animate__fadeInUp">| &nbsp; 25 Years Of Experience &nbsp; |</p>
+                <h2 class="animate__animated animate__fadeInDown">Painting Service 
+                  Company</h2>                
+                <a href="#" class="custom_btn custom_btn01">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="custom_btn custom_btn02">Our Service <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+        </a>
+
+      </div>
+    </div>
+</section><!-- END Hero Area -->
+
+  
+<!---- About Area Start ---->
+<section id="about" class="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-lg-6">
+          <div class="about_img">
+            <img src="assets/img/about.jpg" alt="About Image">
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 mt-lg-0 col-lg-6 right_part">
+          <div class="section_heading">
+            <span>About Us</span>
+            <h2>Explore About <br> Painting Services <br> Success History</h2>
+            <p class="p_01">Accusantium doloremq laudantium totam remesd aperiam eaque quae abillo inventore </p>
+            <p class="p_02">Sed ut perspiciatis unde omnis iste natus error sit voluptate
+              accusantium doloremq laudantium totam rem aperiam eaque
+              quae ab illo inventore veritatis et quasi architecto beatae vita
+              dicta sunt explicabo. Nemo enim ipsam voluptatem.</p>
+
+              <div class="about_btm_area">
+                <div class="bottom_info">
+                  <img src="assets/img/about-logo.jpg">
+                  <div class="btm_text">
+                    <h4>Jose E. Swisher</h4>
+                    <p>CEO & Founder</p>
+                  </div>
+                  <img src="assets/img/singneture.jpg">
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div><!-- row -->
+    </div>
+</section><!---- END About Area ---->
+
+
+<!---- Our work Area Start ---->
+<section id="features" class="features">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+          <div class="left_content">
+            <div class="section_heading">
+               <span>What We Do</span>
+                <h2>Beign Us To Made <br>
+                Your Dream Painting</h2>
+            </div>
+
+            <div class="features_list">
+               <div class="features_info">
+                  <div class="features_logo">
+                    <img src="assets/img/features_logo.jpg">
+                  </div>
+                  <div class="features_text">
+                    <h3>Residential Painting</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="features_list">
+              <div class="features_info">
+                 <div class="features_logo">
+                   <img src="assets/img/features_logo.jpg">
+                 </div>
+                 <div class="features_text">
+                   <h3>Commercial Painting</h3>
+                   <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque</p>
+                 </div>
+              </div>
+           </div>
+
+           <div class="features_list">
+            <div class="features_info">
+               <div class="features_logo">
+                 <img src="assets/img/features_logo.jpg">
+               </div>
+               <div class="features_text">
+                 <h3>Industrial Painting</h3>
+                 <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque</p>
+               </div>
+            </div>
+           </div>
+
+          </div>  
+        </div>
+      </div>
+    </div>
+</section><!---- END section ---->
+
+
+<!---- service Area Start ---->
+<section class="service" id="service">
+  <div class="container">
+
+    <div class="service_area">
+       <div class="section_heading">
+          <span>What We Offer</span>
+          <h2>We Help You For Made Your <br> Dream Painting</h2>
+       </div>
+
+    <div class="service_img_box">
+      <div class="row">
+
+        <div class="col-md-4 ">
+          <div class="service_img">
+             <img src="assets/img/offer01.jpg">
+          </div>         
+        </div>
+
+        <div class="col-md-4">
+          <div class="service_img">
+             <img src="assets/img/offer02.jpg">
+          </div>  
+        </div>
+
+        <div class="col-md-4">
+          <div class="service_img">
+             <img src="assets/img/offer03.jpg">
+          </div>  
+        </div>
+
+      </div>
+    </div>
+ </div>
+</section><!-- END service Area -->
+
+
+<!-- END service Area Information -->
+<section class="service_info" id="service_info">
+  <div class="service_info">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4">
+           <div class="searvicc_text_box first_info_box">
+             <div class="info_icon">
+                <img src="assets/img/paint-brush.jpg">
+             </div>
+             <h4>Residential Interior</h4>
+             <p>Sed ut perspiciatis unde omnis iste natus error sit volupt ateaccu</p>
+             <a href="#">READ MORE <i class="fa-solid fa-angle-right"></i></a>
+           </div>
+        </div>
+
+        <div class="col-4">
+           <div class="searvicc_text_box">
+              <div class="info_icon">
+                 <img src="assets/img/paint-brush.jpg">
+              </div>
+             <h4>Commercial Interior</h4>
+             <p>Sed ut perspiciatis unde omnis iste natus error sit volupt ateaccu</p>
+             <a href="#">READ MORE <i class="fa-solid fa-angle-right"></i></a>
+           </div>
+        </div>
+
+        <div class="col-4">
+           <div class="searvicc_text_box last_info_box">
+              <div class="info_icon">
+                 <img src="assets/img/paint-brush.jpg">
+              </div>
+             <h4>Industrial Interior</h4>
+             <p>Sed ut perspiciatis unde omnis iste natus error sit volupt ateaccu</p>
+             <a href="#">READ MORE <i class="fa-solid fa-angle-right"></i></a>
+           </div>
+        </div>
+
+      </div>
+    </div>    
+  </div>
+</div>
+</section>
+
+
+<!-- skills Area Start-->
+<section class="skills" id="skills">
+  <div class="container">
+     <div class="row">
+
+       <div class="col-12 col-md-6 m-auto">
+         <div class="skill_area_left">
+            <div class="section_heading">
+               <span>Best Skills</span>
+               <h2>Discover Our <br>
+                Best Working Skills <br>
+                & Experience</h2>
+            </div>
+            <p>But must explain to you how all this mistaken idea of denoun
+              cing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teach
+              ings of the great explorer of the truth the master-builder of human happiness one rejects dislikes</p>
+              <a href="#" class="custom_btn custom_btn02">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+       </div>
+
+       <div class="col-12 col-md-6 m-auto mt-5 mt-md-0">
+         <div class="skill_area_right">
+
+
+          <div class="circle_box">                             
+            <div class="sub_container">
+              <div class="percent" style="width:145px;height:145px;">
+                 <p style="display:none;color: black;">85%</p>
+              </div>
+            </div>             
+            <div class="skill_info">
+               <h2>Resindential Interior</h2>
+               <p>Sed ut perspiciatis unde omnis iste natus 
+               error sit voluptatem accusantium</p>                
+            </div>
+           </div>
+
+             <div class="circle_box">                             
+              <div class="sub_container">
+                <div class="percent" style="width:145px;height:145px;">
+                   <p style="display:none;">67%</p>
+                </div>
+              </div>             
+              <div class="skill_info">
+                 <h2>Commercial Interior</h2>
+                 <p>Sed ut perspiciatis unde omnis iste natus 
+                 error sit voluptatem accusantium</p>                
+              </div>
+             </div>
+
+             <div class="circle_box">                             
+              <div class="sub_container">
+                <div class="percent" style="width:145px;height:145px;">
+                   <p style="display:none;">83%</p>
+                </div>
+              </div>             
+              <div class="skill_info">
+                 <h2>Industrial Interior</h2>
+                 <p>Sed ut perspiciatis unde omnis iste natus 
+                 error sit voluptatem accusantium</p>                
+              </div>
+             </div>
+
+         </div>
+       </div>
+
+     </div>
+  </div>
+</section><!-- END skills Area -->
+
+
+<!-- Portfolio Area Start-->
+<section class="portfolio" id="portfolio">
+   <div class="container-fluid">
+      <div class="row">
+
+         <div class="col-12 col-md-4">
+           <div class="portfolio_img">
+                <img class="w-100" src="assets/img/portfolio01.jpg">
+           </div>
+         </div>
+         
+         <div class="col-12 col-md-4">
+          <div class="portfolio_img before_hidden">
+               <img class="w-100" src="assets/img/portfolio02.jpg">
+               <div class="portfolio_hidden_info">
+                  <h2>Painting Outside In House</h2>
+                  <p>Color Painting Services</p>
+               </div>
+               <div class="portfolio_plus_icon">
+                  <i class="fa-solid fa-plus"></i>
+               </div>  
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="portfolio_img">
+               <img class="w-100" src="assets/img/portfolio03.jpg">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="portfolio_img">
+               <img class="w-100" src="assets/img/portfolio04.jpg">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="portfolio_img">
+               <img class="w-100" src="assets/img/portfolio05.jpg">
+          </div>
+        </div>
+
+      </div>
+   </div>
+</section><!---- END Portfolio Area ---->
+
+
+<!---- Know About us Start ---->
+<section class="about_us" id="about_us">
+   <div class="container">
+       <div class="row">
+
+          <div class="col-4">
+             <div class="about_us_img">
+                <img src="assets/img/why-chose.jpg">
+             </div>
+          </div>
+
+          <div class="col-8">
+             <div class="about_us_left_content">
+                <div class="about_left_info">
+                  <div class="section_heading">
+                     <span>Know About Us</span>
+                     <h2>Why Choose Our Printing <br>
+                      Service Company</h2>
+                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects</p>
+                   </div>
+
+                   <div class="left_about_img">
+                     <img src="assets/img/about01.jpg">
+                     <img src="assets/img/about02.jpg">
+                     <img src="assets/img/about03.jpg">
+                   </div>
+                </div>
+             </div>
+          </div>
+
+       </div>
+   </div>
+</section><!---- END area ---->
+
+
+<!---- Testimonial area Start ---->
+<section class="testimonial" id="testimonial">
+   <div class="container container_wrap">
+
+    <div class="section_heading">
+      <span>Testimonials</span>
+      <h2>What Our Clienks Say <br> About Roxce</h2>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-12 col-md-4">
+        <div class="testimorial_box">
+           <div class="testimonial_info">
+              <img src="assets/img/testimonial01.jpg">
+              <p>On the other hand denoune with 
+                righteou indignat and dislike menar
+                so beguiled demoralized echarms of pleasure of the moment so blinded 
+                by desire that systems</p>
+              <div class="testimonial_owner">
+                <h2>David Warne</h2>
+                <h6>CEO & Founder</h6>
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="testimorial_box">
+           <div class="testimonial_info">
+              <img src="assets/img/testimonial02.jpg">
+              <p>On the other hand denoune with 
+                righteou indignat and dislike menar
+                so beguiled demoralized echarms of pleasure of the moment so blinded 
+                by desire that systems</p>
+              <div class="testimonial_owner">
+                <h2>Jossi Warne</h2>
+                <h6>CEO & Founder</h6>
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="testimorial_box">
+           <div class="testimonial_info">
+              <img src="assets/img/testimonial03.jpg">
+              <p>On the other hand denoune with 
+                righteou indignat and dislike menar
+                so beguiled demoralized echarms of pleasure of the moment so blinded 
+                by desire that systems</p>
+              <div class="testimonial_owner">
+                <h2>Mavid Warne</h2>
+                <h6>CEO & Founder</h6>
+              </div>
+           </div>
+        </div>
+      </div>
+
+    </div>
+
+   </div>
+</section>
+
+
+<!---- Contact area Start 
+
+<section class="contact" id="contact">
+   <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+           <div class="section_heading">
+              <span>Get In Touch</span>
+              <h2>Don’t Hesite Feel Free <br> To Contact With us</h2>
+            </div>
+           <form>
+              <div class="contact_form">
+                 <input type="text" placeholder="Your Full Name">
+                 <input type="email" placeholder="Your Email Address">
+                 <textarea placeholder="Your Massage"></textarea>
+                 <a href="#" class="custom_btn custom_btn02">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+           </form>
+        </div>
+
+      </div>
+   </div>
+</section>
+
+---->
+
+<!---- Blog / News area Start ---->
+<section class="blog" id="blog">
+   <div class="container container_wrap">
+     <div class="blog_header">
+       <div class="section_heading">
+         <span>News and Blog</span>
+         <h2>Our Latest News Blog <br>
+          Articles & Tips</h2>
+       </div>
+
+       <div class="row">
+
+         <div class="col-12 col-md-4">
+           <div class="blog_news_box">
+              <div class="blog_img">
+                <img src="assets/img/news.jpg">
+              </div>
+              <div class="blog_info">
+                <div class="blog_date">
+                   <h4>25</h4>
+                   <h6>Nov</h6>
+                </div>
+                <div class="blog_content">
+                   <span>ADMIN</span>
+                   <h2>How To Build A Vue Survey App Using Firebase Authent Eication And Database</h2>
+                   <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+           </div>  
+         </div>
+
+         <div class="col-12 col-md-4">
+           <div class="blog_news_box">
+              <div class="blog_img">
+                <img src="assets/img/news.jpg">
+              </div>
+              <div class="blog_info">
+                <div class="blog_date">
+                  <h4>25</h4>
+                  <h6>Nov</h6>
+                </div>
+                <div class="blog_content">
+                   <span>ADMIN</span>
+                   <h2>Micro Typography How To Space & Kern Punctuations Marks And Other Symbol</h2>
+                   <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+           </div>  
+         </div>
+
+         <div class="col-12 col-md-4">
+           <div class="blog_news_box">
+              <div class="blog_img">
+                <img src="assets/img/news.jpg">
+              </div>
+              <div class="blog_info">
+                <div class="blog_date">
+                  <h4>25</h4>
+                  <h6>Nov</h6>
+                </div>
+                <div class="blog_content">
+                   <span>ADMIN</span>
+                   <h2>How To Build A Vue Survey  App Using Firebase Authent Eication And Database</h2>
+                   <a href="#">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+           </div>  
+         </div>
+
+       </div>
+     </div>
+   </div>
+</section><!---- END Blog / News area ---->
+
+
+<!---- Footer area Start ----->
+  <footer class="footer" id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="clint_area">
+          <img src="assets/img/clints.png">
+        </div>
+        <div class="row footer_row">
+
+          <div class="col-lg-3 col-md-6 footer-box">
+              <h2>About Company</h2>
+              <p class="company_p">Sed ut perspiciati unde omnis iste natus error sit voluptatem accusantium
+              emque laudantium totam rem aperiam</p>
+              <div class="brand_info">
+                <img src="assets/img/logo.jpg">
+                <h3 class="brant_name">Roxce</h3>                  
+              </div> 
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-box">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Residential Interior</a></li>
+              <li><a href="#">Commercial Interior</a></li>
+              <li><a href="#">Industrial Interior</a></li>
+              <li><a href="#">Roof Servicing</a></li>
+              <li><a href="#">Color Mixing</a></li>
+              <li><a href="#">Painting & Decoration</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-box">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>
+                <div class="contact_info">
+                  <i class="fa-solid fa-location-dot"></i>
+                   <div class="contact_text">
+                      <h6>Locations</h6>
+                      <p>30 Main Street, New York</p>
+                   </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact_info">
+                  <i class="fa-solid fa-envelope"></i>
+                   <div class="contact_text">
+                      <h6>Email Us</h6>
+                      <p>support@gmail.com</p>
+                   </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact_info">
+                  <i class="fa-solid fa-phone"></i> 
+                   <div class="contact_text">
+                      <h6>Phone Us</h6>
+                      <p>+123 (456) 687 99</p>
+                   </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-box">
+            <h2>Newsletter</h2>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <div class="form_box">
+              <input class="email_box" type="email" placeholder="Enter Your Email">
+              <a href="#" class="subscribe_btn">SUBSCRIBE <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="copyright_area">
+      <div class="container copyright_border">
+         <div class="row">
+            <div class="col-6">
+              <form class="social_area">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </form>
+            </div>
+
+            <div class="col-6 copyright_p">
+             <div class="copyright_text">
+                 <p>&copy; 2020 Roxce All Rights Reserved</p>
+             </div>
+            </div>
+         </div>
+      </div>
+    </div>
+<footer>
+
+
+
+<!-- JS file Calling-->
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+
+<!-- jquery file for skills circle -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+<script src="assets/js/jQuery.circleProgressBar.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
